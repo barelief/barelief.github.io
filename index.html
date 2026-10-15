@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bartosz Połoński — Author</title>
+<meta name="description" content="Bartosz Połoński — Vilnius-born author of the novel Robczik / Robčikas. Artist, screenwriter and creator of virtual reality films.">
+<meta property="og:title" content="Bartosz Połoński — Author">
+<meta property="og:description" content="Author of Robczik. Powieść wileńska / Robčikas: vilenskas romanas.">
+<meta property="og:image" content="https://barelief.github.io/images/robczik_lt.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf8f2;
+    --fg: #17150f;
+    --muted: #6b665a;
+    --line: #e2ddcf;
+    --accent: #f2c500;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141310;
+      --fg: #f1eee6;
+      --muted: #a39e90;
+      --line: #2e2b24;
+      --card: #1c1a16;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 18px/1.6 "Source Serif 4", Georgia, serif;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 72px 0 40px; border-bottom: 1px solid var(--line); }
+  h1, h2, h3, .sans { font-family: "Archivo", system-ui, sans-serif; }
+  h1 {
+    font-size: clamp(2.4rem, 7vw, 4.2rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    margin: 0 0 12px;
+  }
+  h1 span { box-shadow: inset 0 -0.28em 0 var(--accent); }
+  .role { font-family: "Archivo", sans-serif; color: var(--muted); margin: 0; font-size: 1rem; letter-spacing: 0.02em; }
+  section { padding: 48px 0; border-bottom: 1px solid var(--line); }
+  h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); margin: 0 0 24px; font-weight: 600; }
+  .bio p { margin: 0 0 1em; max-width: 62ch; }
+  .bio p:last-child { margin-bottom: 0; }
+  .lang { color: var(--muted); font-style: italic; font-size: 0.95rem; }
+  .book {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 28px;
+    align-items: start;
+    margin-bottom: 40px;
+  }
+  .book:last-child { margin-bottom: 0; }
+  .book img { width: 100%; height: auto; display: block; border-radius: 3px; box-shadow: 0 8px 24px rgba(0,0,0,0.18); }
+  .book h3 { margin: 0 0 4px; font-size: 1.45rem; line-height: 1.2; font-weight: 800; }
+  .book .sub { margin: 0 0 12px; color: var(--muted); font-style: italic; }
+  .meta { font-family: "Archivo", sans-serif; font-size: 0.9rem; color: var(--muted); margin: 0 0 14px; }
+  .meta div { margin: 2px 0; }
+  .book p.desc { margin: 0 0 16px; max-width: 58ch; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn {
+    font-family: "Archivo", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #17150f;
+    background: var(--accent);
+    padding: 9px 16px;
+    border-radius: 999px;
+  }
+  .btn.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+  .btn:hover { filter: brightness(0.95); }
+  .contact a { color: var(--fg); text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  .contact .email { font-family: "Archivo", sans-serif; font-size: 1.4rem; font-weight: 600; }
+  .contact ul { list-style: none; padding: 0; margin: 16px 0 0; font-family: "Archivo", sans-serif; font-size: 0.95rem; }
+  .contact li { margin: 6px 0; }
+  footer { padding: 32px 0 56px; color: var(--muted); font-family: "Archivo", sans-serif; font-size: 0.85rem; }
+  @media (max-width: 600px) {
+    header { padding: 48px 0 32px; }
+    .book { grid-template-columns: 110px 1fr; gap: 18px; }
+    .book h3 { font-size: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span>Bartosz Połoński</span></h1>
+    <p class="role">Author · Artist · Screenwriter · VR filmmaker</p>
+  </header>
+
+  <section class="bio">
+    <h2>About</h2>
+    <p>Bartosz Połoński is a writer, artist, screenwriter and creator of virtual reality films. He was born in Vilnius, studied in Poland and has worked in the United States.</p>
+    <p>His debut novel, <em>Robczik. Powieść wileńska</em> (2023), follows a group of Polish-speaking high-school students in Vilnius in the 2000s. Written in the city's own street language, a mix of Polish, Lithuanian, youth slang, Russian and English, it shows contemporary Vilnius and its young people without nostalgic myths. The novel was published in Polish by Części Proste and in Lithuanian, as <em>Robčikas: vilenskas romanas</em>, by Slinktys. The Lithuanian edition is also available as an audiobook, and the Polish Theatre in Vilnius has adapted it for the stage.</p>
+  </section>
+
+  <section>
+    <h2>Books</h2>
+
+    <article class="book">
+      <img src="images/robczik_pl.jpg" alt="Cover of Robczik. Powieść wileńska" width="600" height="782">
+      <div>
+        <h3>Robczik</h3>
+        <p class="sub">Powieść wileńska</p>
+        <div class="meta">
+          <div>Polish · Wydawnictwo Części Proste, Gdańsk · 2023</div>
+          <div>ISBN 978-83-963724-7-5</div>
+        </div>
+        <p class="desc">The original Polish edition.</p>
+        <div class="buttons">
+          <a class="btn" href="https://czesciproste.pl/sklep/23-robczik.html">Buy from Części Proste</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="book">
+      <img src="images/robczik_lt.jpg" alt="Cover of Robčikas: vilenskas romanas" width="570" height="836">
+      <div>
+        <h3>Robčikas</h3>
+        <p class="sub">Vilenskas romanas</p>
+        <div class="meta">
+          <div>Lithuanian · Slinktys · 2023</div>
+          <div>Translated by Evelina Bondar</div>
+          <div>Audiobook read by Laurynas Jurgelis</div>
+        </div>
+        <p class="desc">The Lithuanian translation, also available as an audiobook.</p>
+        <div class="buttons">
+          <a class="btn" href="https://www.slinktys.lt/405-robcikas.htmls">Buy from Slinktys</a>
+          <a class="btn ghost" href="https://audioteka.com/lt/audiobook/robcikas/">Audiobook on Audioteka</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <a class="email" href="mailto:bartas@gluk.lt">bartas@gluk.lt</a>
+    <ul>
+      <li><a href="https://www.goodreads.com/author/show/44415047.Bartosz_Po_o_ski">Goodreads</a></li>
+    </ul>
+  </section>
+
+  <footer>© Bartosz Połoński</footer>
+</div>
+</body>
+</html>
